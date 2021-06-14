@@ -7,7 +7,7 @@ app = Flask(__name__, template_folder='templates')
 
 model = pickle.load(open('model.pkl', 'rb'))
 
-
+#@app is flask imported object app
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -15,6 +15,7 @@ def home():
 
 # This is the post method, wherein input some features to model.pkl file to predict the op
 # Here /predict is calling below function predict
+#@app is flask imported object app
 @app.route('/predict',methods=['POST'])
 def predict():
     '''
@@ -32,3 +33,4 @@ def predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    #@app is flask imported object app
