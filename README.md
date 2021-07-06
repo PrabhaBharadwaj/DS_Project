@@ -1,5 +1,5 @@
-# ML-Model-Flask-Heroku-Deployment
-ML Model Flask Heroku deployment sample
+# ML-Model-Flask-Heroku-Deployment  and Deployed in AWS EC2 
+ML Model Flask Heroku deployment sample and same deployed in AWS EC2 instance also
 
 
 # Salary_Prediction
@@ -35,3 +35,11 @@ If everything goes well, you should be able to see the predcited car price vaule
 
 You can also send direct POST requests to FLask API using Python's inbuilt request module Run the beow command to send the request with some pre-popuated values -
 python request.py
+
+# Deployed in Heroku
+
+Here we used Flask web application Framework and deployed in Heroku  (Platfoem As A service-IAAS) 
+
+# Deployed in aws ec2
+
+Here we used Flask web application Framework and deployed in Amazon (AWS) EC2 platform (Infrastructure As A service-IAAS) 
